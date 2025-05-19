@@ -1,6 +1,3 @@
-**`Modulo1.md`** (Archivo Principal del Módulo 1)
-
-```markdown
 # Módulo 1: Primeros Pasos en Python - ¡Tu Aventura Comienza!
 
 ## Laboratorio 1 - Guía Paso a Paso
