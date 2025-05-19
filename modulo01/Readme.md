@@ -175,3 +175,5 @@ Información Tabulada Simple (Dificultad 9): m1-ejercicio9-9.md
 
 Mensaje de Bienvenida Elaborado (Dificultad 10): m1-ejercicio10-10.md
 
+---
+
