@@ -67,4 +67,3 @@ En resumen, para mostrar texto (cadenas o *strings*) con la función `print()`, 
 </details>
 
 
-Continuaré con los ejercicios 6 a 10 en la siguiente respuesta para no hacer esta demasiado larga.
