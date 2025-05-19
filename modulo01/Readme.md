@@ -1,3 +1,6 @@
+**`Modulo1.md`** (Archivo Principal del Módulo 1)
+
+```markdown
 # Módulo 1: Primeros Pasos en Python - ¡Tu Aventura Comienza!
 
 ## Laboratorio 1 - Guía Paso a Paso
@@ -39,141 +42,86 @@ En Python, esto es increíblemente simple. Abre tu IDE o editor, crea un nuevo a
 print("Hola, Mundo!")
 ```
 
-Explicación:
+**Explicación:**
+*   `print`: Es una **función** incorporada en Python. Una función es un bloque de código que realiza una tarea específica. La función `print()` se utiliza para mostrar información en la pantalla (o consola).
+*   `()`: Los paréntesis se usan después del nombre de una función para indicar que la estamos "llamando" o ejecutando, y dentro de ellos podemos pasarle "argumentos" (datos que la función necesita para trabajar).
+*   `"Hola, Mundo!"`: Es una **cadena de texto** (o *string* en inglés). En Python, el texto se escribe entre comillas dobles (`"`) o comillas simples (`'`). Este es el argumento que le estamos pasando a la función `print()` para que lo muestre.
 
-print: Es una función incorporada en Python. Una función es un bloque de código que realiza una tarea específica. La función print() se utiliza para mostrar información en la pantalla (o consola).
-
-(): Los paréntesis se usan después del nombre de una función para indicar que la estamos "llamando" o ejecutando, y dentro de ellos podemos pasarle "argumentos" (datos que la función necesita para trabajar).
-
-"Hola, Mundo!": Es una cadena de texto (o string en inglés). En Python, el texto se escribe entre comillas dobles (") o comillas simples ('). Este es el argumento que le estamos pasando a la función print() para que lo muestre.
-
-Ejecutar tu Programa:
+**Ejecutar tu Programa:**
 La forma de ejecutar el programa varía ligeramente según el IDE:
+*   **Thonny:** Hay un botón verde de "Play" o "Run".
+*   **VS Code:** Puedes hacer clic derecho en el editor y seleccionar "Run Python File in Terminal", o usar el botón de "Play" si tienes la extensión de Python configurada.
+*   **Desde la terminal:** Navega hasta la carpeta donde guardaste tu archivo `hola.py` y escribe: `python hola.py` o `python3 hola.py`.
 
-Thonny: Hay un botón verde de "Play" o "Run".
+Si todo va bien, deberías ver el texto `Hola, Mundo!` impreso en la consola de salida de tu IDE o en la terminal. ¡Felicidades, has escrito y ejecutado tu primer programa en Python!
 
-VS Code: Puedes hacer clic derecho en el editor y seleccionar "Run Python File in Terminal", o usar el botón de "Play" si tienes la extensión de Python configurada.
+### La Función `print()` - Más Detalles
+La función `print()` es muy versátil:
+*   **Mostrar números:**
+    ```python
+    print(123)
+    print(3.14159)
+    ```
+*   **Mostrar múltiples elementos:** Puedes pasarle varios argumentos separados por comas, y `print()` los mostrará separados por un espacio por defecto.
+    ```python
+    print("Mi edad es:", 30, "y mi ciudad es:", "Madrid")
+    # Salida: Mi edad es: 30 y mi ciudad es: Madrid
+    ```
 
-Desde la terminal: Navega hasta la carpeta donde guardaste tu archivo hola.py y escribe: python hola.py o python3 hola.py.
+### Comentarios en Python (`#`)
+A medida que tus programas crezcan, querrás añadir notas para explicar qué hace tu código. Estas notas se llaman **comentarios**. Python ignora los comentarios cuando ejecuta el código; son solo para los humanos.
+En Python, cualquier texto en una línea que siga al símbolo de almohadilla (`#`) es un comentario.
 
-Si todo va bien, deberías ver el texto Hola, Mundo! impreso en la consola de salida de tu IDE o en la terminal. ¡Felicidades, has escrito y ejecutado tu primer programa en Python!
-
-La Función print() - Más Detalles
-
-La función print() es muy versátil:
-
-Mostrar números:
-
-print(123)
-print(3.14159)
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Python
-IGNORE_WHEN_COPYING_END
-
-Mostrar múltiples elementos: Puedes pasarle varios argumentos separados por comas, y print() los mostrará separados por un espacio por defecto.
-
-print("Mi edad es:", 30, "y mi ciudad es:", "Madrid")
-# Salida: Mi edad es: 30 y mi ciudad es: Madrid
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Python
-IGNORE_WHEN_COPYING_END
-Comentarios en Python (#)
-
-A medida que tus programas crezcan, querrás añadir notas para explicar qué hace tu código. Estas notas se llaman comentarios. Python ignora los comentarios cuando ejecuta el código; son solo para los humanos.
-En Python, cualquier texto en una línea que siga al símbolo de almohadilla (#) es un comentario.
-
+```python
 # Este es un comentario de línea completa. Explica lo que hace el programa.
 print("Este mensaje se mostrará.") # Este es un comentario al final de una línea.
 # print("Este mensaje no se mostrará porque la línea está comentada.")
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Python
-IGNORE_WHEN_COPYING_END
-
+```
 Es una buena práctica usar comentarios para hacer tu código más entendible.
 
-Errores Comunes al Inicio
-
+### Errores Comunes al Inicio
 No te preocupes si cometes errores; ¡es parte del aprendizaje! Python te dará mensajes de error que intentan ayudarte a encontrar el problema.
+*   **`SyntaxError` (Error de Sintaxis):** Ocurre cuando escribes algo que Python no entiende, como olvidar cerrar unas comillas o un paréntesis, o escribir mal una palabra clave.
+    ```python
+    # print("Hola Mundo!) # Error: falta la comilla de cierre
+    # prin("Hola Mundo!") # Error: 'prin' no es una función conocida (a menos que la hayas definido)
+    ```
+*   **`IndentationError` (Error de Indentación):** Python usa la indentación (espacios al inicio de una línea) para definir bloques de código. Por ahora, asegúrate de que todas tus líneas de código comiencen en la misma columna (sin espacios extra al inicio), a menos que estés dentro de una estructura que lo requiera (lo veremos más adelante).
+    ```python
+    #  print("Hola") # Esto podría dar un IndentationError si no se espera indentación aquí.
+    ```
 
-SyntaxError (Error de Sintaxis): Ocurre cuando escribes algo que Python no entiende, como olvidar cerrar unas comillas o un paréntesis, o escribir mal una palabra clave.
-
-# print("Hola Mundo!) # Error: falta la comilla de cierre
-# prin("Hola Mundo!") # Error: 'prin' no es una función conocida (a menos que la hayas definido)
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Python
-IGNORE_WHEN_COPYING_END
-
-IndentationError (Error de Indentación): Python usa la indentación (espacios al inicio de una línea) para definir bloques de código. Por ahora, asegúrate de que todas tus líneas de código comiencen en la misma columna (sin espacios extra al inicio), a menos que estés dentro de una estructura que lo requiera (lo veremos más adelante).
-
-#  print("Hola") # Esto podría dar un IndentationError si no se espera indentación aquí.
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Python
-IGNORE_WHEN_COPYING_END
-Ejecución Secuencial de Instrucciones
-
+### Ejecución Secuencial de Instrucciones
 Por defecto, Python ejecuta las instrucciones de tu programa una por una, en el orden en que aparecen en el archivo, de arriba hacia abajo.
 
+```python
 print("Línea 1")
 print("Línea 2")
 print("Línea 3")
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Python
-IGNORE_WHEN_COPYING_END
-
-Salida:
-
+```
+**Salida:**
+```
 Línea 1
 Línea 2
 Línea 3
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
+```
 
 ¡Eso es todo por este primer laboratorio! Has aprendido mucho. Ahora, ¡a practicar con los ejercicios!
 
-Ejercicios del Módulo 1
-
-A continuación, se listan los ejercicios propuestos para este módulo. Todos se enfocan en el uso de la función print() para mostrar diferentes tipos de mensajes y datos, y en la correcta sintaxis de Python.
-
-Saludo Básico (Dificultad 1): m1-ejercicio1-1.md
-
-Presentación Personal (Dificultad 2): m1-ejercicio2-2.md
-
-Lista de Compras (Dificultad 3): m1-ejercicio3-3.md
-
-Poema Corto (Dificultad 4): m1-ejercicio4-4.md
-
-Datos de un Libro (Dificultad 5): m1-ejercicio5-5.md
-
-Instrucciones Simples (Dificultad 6): m1-ejercicio6-6.md
-
-Conversación Simulada (Dificultad 7): m1-ejercicio7-7.md
-
-Figuras con Caracteres (Dificultad 8): m1-ejercicio8-8.md
-
-Información Tabulada Simple (Dificultad 9): m1-ejercicio9-9.md
-
-Mensaje de Bienvenida Elaborado (Dificultad 10): m1-ejercicio10-10.md
-
 ---
+
+## Ejercicios del Módulo 1
+
+A continuación, se listan los ejercicios propuestos para este módulo. Todos se enfocan en el uso de la función `print()` para mostrar diferentes tipos de mensajes y datos, y en la correcta sintaxis de Python.
+
+1.  **Saludo Básico** (Dificultad 1): [m1-ejercicio1-1.md](m1-ejercicio1-1.md)
+2.  **Presentación Personal** (Dificultad 2): [m1-ejercicio2-2.md](m1-ejercicio2-2.md)
+3.  **Lista de Compras** (Dificultad 3): [m1-ejercicio3-3.md](m1-ejercicio3-3.md)
+4.  **Poema Corto** (Dificultad 4): [m1-ejercicio4-4.md](m1-ejercicio4-4.md)
+5.  **Datos de un Libro** (Dificultad 5): [m1-ejercicio5-5.md](m1-ejercicio5-5.md)
+6.  **Instrucciones Simples** (Dificultad 6): [m1-ejercicio6-6.md](m1-ejercicio6-6.md)
+7.  **Conversación Simulada** (Dificultad 7): [m1-ejercicio7-7.md](m1-ejercicio7-7.md)
+8.  **Figuras con Caracteres** (Dificultad 8): [m1-ejercicio8-8.md](m1-ejercicio8-8.md)
+9.  **Información Tabulada Simple** (Dificultad 9): [m1-ejercicio9-9.md](m1-ejercicio9-9.md)
+10. **Mensaje de Bienvenida Elaborado** (Dificultad 10): [m1-ejercicio10-10.md](m1-ejercicio10-10.md)
 
