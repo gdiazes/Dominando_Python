@@ -37,7 +37,7 @@ En Python, esto es increíblemente simple. Abre tu IDE o editor, crea un nuevo a
 
 ```python
 print("Hola, Mundo!")
-
+```
 
 Explicación:
 
