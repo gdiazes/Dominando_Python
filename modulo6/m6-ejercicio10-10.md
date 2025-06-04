@@ -38,16 +38,16 @@ while hp_heroe > 0 and hp_monstruo > 0:
         hp_monstruo -= dano_heroe
         print(f"Monstruo HP restante: {hp_monstruo}")
     
-    # Pista 1: ¿Qué pasa si el Monstruo es derrotado por el ataque del Héroe? ¿Debería atacar igual?
+    
     
     # Turno del Monstruo
-    if hp_monstruo > 0 # Pista 2
+    if hp_monstruo > 0 
         print(f"Monstruo ataca al Héroe por {dano_monstruo} de daño.")
         hp_heroe -= dano_monstruo
         print(f"Héroe HP restante: {hp_heroe}")
 
     turno += 1
-    # Pista 3: La condición de victoria/derrota y el mensaje final ¿dónde deberían evaluarse e imprimirse?
+    
 
 # Anunciar ganador
 if hp_heroe <= 0:
