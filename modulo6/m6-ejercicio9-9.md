@@ -35,12 +35,12 @@ original_b = b
 if a <= 0 or b <= 0:
     print("Ambos números deben ser enteros positivos.")
 else
-    while b != 0 # Pista 1
+    while b != 0 
         temp_b = b
         b = a % b
-        a = temp_b # Pista 2 (¿Esta asignación es correcta en el flujo del algoritmo?)
+        a = temp_b 
     
-    mcd = b # Pista 3
+    mcd = b
     print(f"El MCD de {original_a} y {original_b} es: {mcd}")
 
 ```
