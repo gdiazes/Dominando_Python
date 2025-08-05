@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 3 (Dificultad 5.38/10) - Crear una Clase con Métodos (CuentaBancaria)
+# Módulo 15: Ejercicio 3 (Dificultad 5/10) - Crear una Clase con Métodos (CuentaBancaria)
 
 ## Enunciado del Problema
 
