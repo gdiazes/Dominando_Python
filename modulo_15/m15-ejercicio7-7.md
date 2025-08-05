@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 7 (Dificultad 12.56/10) - Herencia Simple (Vehiculo y Coche)
+# Módulo 15: Ejercicio 7 (Dificultad 12/10) - Herencia Simple (Vehiculo y Coche)
 
 ## Enunciado del Problema
 
