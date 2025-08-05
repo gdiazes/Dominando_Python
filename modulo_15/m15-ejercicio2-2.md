@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 2 (Dificultad 3.59/10) - Crear una Clase con Constructor `__init__()` (Libro)
+# Módulo 15: Ejercicio 2 (Dificultad 3/10) - Crear una Clase con Constructor `__init__()` (Libro)
 
 ## Enunciado del Problema
 
