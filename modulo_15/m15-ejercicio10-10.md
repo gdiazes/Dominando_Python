@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 10 (Dificultad 17/10) - Mini-Proyecto POO: Figuras Geométricas
+# Módulo 15: Ejercicio 10 (Dificultad  17/10) - Mini-Proyecto POO: Figuras Geométricas
 
 ## Enunciado del Problema
 
