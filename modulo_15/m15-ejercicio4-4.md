@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 4 (Dificultad 7.18/10) - Crear Múltiples Objetos de una Clase (Estudiante)
+# Módulo 15: Ejercicio 4 (Dificultad 7/10) - Crear Múltiples Objetos de una Clase (Estudiante)
 
 ## Enunciado del Problema
 
