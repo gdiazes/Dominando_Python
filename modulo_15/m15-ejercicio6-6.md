@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 6 (Dificultad 10.77/10) - Usar un Objeto como Atributo de Otro (Composición)
+# Módulo 15: Ejercicio 6 (Dificultad 10/10) - Usar un Objeto como Atributo de Otro (Composición)
 
 ## Enunciado del Problema
 
