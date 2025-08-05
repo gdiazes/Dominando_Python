@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 9 (Dificultad 16.15/10) - Sobrescribir un Método del Padre
+# Módulo 15: Ejercicio 9 (Dificultad 16/10) - Sobrescribir un Método del Padre
 
 ## Enunciado del Problema
 
