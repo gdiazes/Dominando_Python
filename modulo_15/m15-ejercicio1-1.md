@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 1 (Dificultad 1.79/10) - Definir una Clase Simple (Perro)
+# Módulo 15: Ejercicio 1 (Dificultad 2/10) - Definir una Clase Simple (Perro)
 
 ## Enunciado del Problema
 
