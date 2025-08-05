@@ -1,4 +1,4 @@
-# Módulo 15: Ejercicio 5 (Dificultad 8.97/10) - Modificar Atributos de un Objeto (Producto)
+# Módulo 15: Ejercicio 5 (Dificultad 8/10) - Modificar Atributos de un Objeto (Producto)
 
 ## Enunciado del Problema
 
