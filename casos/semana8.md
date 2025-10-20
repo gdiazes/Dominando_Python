@@ -1,8 +1,8 @@
 ### **Guía de Laboratorio 8: De Datos Aislados a Inteligencia Colectiva con Listas**
 
-**Metodología:** Aprendizaje Basado en Casos (ABC)
-**Semana:** 8
-**Temas:** Listas en Python (creación, métodos, iteración, análisis de datos).
+** Metodología:** Aprendizaje Basado en Casos (ABC)
+** Semana:** 8
+** Temas:** Listas en Python (creación, métodos, iteración, análisis de datos).
 
 ### **Paso 1: La Presentación del Caso**
 
