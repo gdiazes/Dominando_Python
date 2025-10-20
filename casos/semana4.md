@@ -1,10 +1,10 @@
 
 ### **Guía de Laboratorio 4: De una Idea Lógica a una Solución Funcional en Python**
-
+---
 **Metodología:** Aprendizaje Basado en Casos (ABC)
 **Semana:** 4
 **Temas:** Sintaxis básica, Variables, Operadores, Entrada/Salida en Python.
-
+---
 
 ### **Paso 1: La Presentación del Caso**
 
