@@ -139,4 +139,4 @@ else:
 Una vez que tu programa funcione, reflexiona sobre lo que has logrado:
 *   ¿Cómo la estructura de la lista simplificó radicalmente la resolución del caso de Ana?
 *   ¿Qué otros problemas del mundo real (en los negocios, la ciencia, los juegos) podrías modelar y resolver utilizando listas?
-*   Pasaste de escribir un programa que olvida los datos después de usarlos a uno que los **recuerda y procesa en conjunto**. Este es un salto fundamental en la programación.
+  
