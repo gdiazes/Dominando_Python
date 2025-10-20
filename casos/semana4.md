@@ -1,5 +1,3 @@
----
-
 ### **Laboratorio N° 4: Traducción Algorítmica con Python**
 
 | **Título:** | De la Lógica del Problema a la Implementación del Código |
