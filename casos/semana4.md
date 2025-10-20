@@ -1,7 +1,3 @@
-¡Excelente! Elevemos el nivel de la guía de laboratorio para que sea un recurso de aprendizaje de alta calidad, profesional en su presentación y didáctico en su enfoque.
-
-Esta versión utiliza un lenguaje más formal, estructura la información de manera más clara y se enfoca en guiar el razonamiento del estudiante.
-
 ---
 
 ### **Laboratorio N° 4: Traducción Algorítmica con Python**
