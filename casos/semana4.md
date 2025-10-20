@@ -116,3 +116,19 @@ Si el resultado obtenido difiere del esperado, el código de la Sección 3 debe 
 1.  **Relación Diseño-Implementación:** Se debe ser capaz de explicar la correspondencia entre el algoritmo diseñado en el Paso 2 y las secciones de código implementadas en el Paso 4.
 2.  **El Ciclo Fundamental:** Deben ser identificadas en el código las tres fases del ciclo **Entrada-Proceso-Salida**. Se espera que el estudiante pueda articular la importancia de este patrón en el desarrollo de software.
 3.  **Generalización del Patrón:** Se debe proponer otro escenario (académico, personal o profesional) donde este mismo ciclo de desarrollo pueda ser aplicado para la creación de una herramienta de software.
+
+
+
+### **Rúbrica de Evaluación del Laboratorio (Total: 20 Puntos)**
+
+El desarrollo del presente laboratorio será evaluado de acuerdo con los siguientes criterios y niveles de logro. El puntaje final será la suma de los puntos obtenidos en cada uno de los cuatro criterios evaluados.
+
+| Criterios | Excelente | Logrado | En Proceso | No aceptable | Pts |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. Traducción Algorítmica y Estructura del Código** | 🟢 **(6 pts)**<br>Código excepcionalmente estructurado, comentado y con fases E-P-S claramente delimitadas. | 🔵 **(4 pts)**<br>Implementa correctamente el ciclo E-P-S. La secuencia es lógica y funcional. | 🟡 **(2 pts)**<br>Secuencia lógica general, pero la delimitación de las fases E-P-S es confusa. | 🔴 **(0 pts)**<br>Sin estructura lógica discernible; fases mezcladas. | **6 pts** |
+| **2. Aplicación de Sintaxis Fundamental de Python** | 🟢 **(5 pts)**<br>Domina la sintaxis y aplica buenas prácticas (ej. formato profesional con f-strings). | 🔵 **(3 pts)**<br>Uso correcto de `input`/`print`, variables, operadores y conversión de tipos. | 🟡 **(1 pto)**<br>Presenta errores menores de sintaxis o conversión de tipos inconsistente. | 🔴 **(0 pts)**<br>Errores de sintaxis recurrentes que impiden la ejecución. | **5 pts** |
+| **3. Funcionalidad y Correctitud del Programa** | 🟢 **(6 pts)**<br>Correcto y robusto; funciona con diversos datos de entrada válidos. | 🔵 **(4 pts)**<br>Se ejecuta sin errores y produce el resultado correcto para los datos de prueba. | 🟡 **(2 pts)**<br>Se ejecuta, pero el resultado es incorrecto debido a un error de lógica. | 🔴 **(0 pts)**<br>No se ejecuta o produce un resultado incorrecto. | **6 pts** |
+| **4. Desarrollo de Laboratorios Previos** | 🟢 **(3 pts)**<br>Entrega completa de los 3 laboratorios previos (Lab 1, 2 y 3). | 🔵 **(2 pts)**<br>Entrega de 2 de los 3 laboratorios previos. | 🟡 **(1 pto)**<br>Entrega de 1 de los 3 laboratorios previos. | 🔴 **(0 pts)**<br>No entrega los laboratorios previos. | **3 pts** |
+
+---
+**PUNTAJE TOTAL MÁXIMO: 20 PUNTOS**
