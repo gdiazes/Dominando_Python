@@ -5,7 +5,7 @@
 **Objetivo del Proyecto:**
 ¡Vamos a construir una aplicación real! Crearás un programa de consola para gestionar tus tareas personales. Con este proyecto, pondrás en práctica todo lo que has aprendido sobre **diccionarios** para almacenar datos, **tuplas** para información fija, el módulo `datetime` para manejar **fechas**, y **funciones** para organizar tu código de manera profesional.
 
-**Contexto y Justificación (Aprendizaje Basado en Proyectos):**
+**Contexto y Justificación:**
 Este no es un ejercicio aislado; es la construcción de una herramienta funcional de principio a fin. Te enfrentarás al desafío de hacer que diferentes partes de tu código (funciones, estructuras de datos) trabajen juntas para crear una aplicación cohesiva. Es la mejor manera de consolidar tus conocimientos y empezar a pensar como un desarrollador de software.
 
 
@@ -58,6 +58,7 @@ Para este proyecto, necesitarás entregar dos cosas:
     *   Graba un video corto (¡**máximo 5 minutos**!).
     *   Súbelo a YouTube como "No listado" (Unlisted).
     *   Pega el enlace del video en un comentario al inicio de tu archivo `.py`.
+    *   Informe detallado del trabajo realizado.
     *   Este video es tu oportunidad para "sustentar" tu proyecto y demostrar que entiendes lo que hiciste.
 
 
