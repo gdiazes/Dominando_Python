@@ -173,7 +173,7 @@ La visualización de datos es un campo enorme, y Matplotlib es la puerta de entr
 
 ---
 
-## Ejercicios del Módulo 16 (Práctica Calificada 4)
+## Ejercicios del Módulo 16 
 
 Estos ejercicios forman la Práctica Calificada 4 y están diseñados para evaluar tu capacidad de seleccionar y crear el gráfico adecuado para representar diferentes tipos de datos.
 
