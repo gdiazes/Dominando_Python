@@ -1,6 +1,3 @@
-**`Modulo16.md`** (Archivo Principal del Módulo 16)
-
-```markdown
 # Módulo 16: Visualizando Datos: Gráficos en Python con Matplotlib
 
 ## Laboratorio 16 - Guía Paso a Paso
