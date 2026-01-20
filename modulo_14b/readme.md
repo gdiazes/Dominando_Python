@@ -154,5 +154,4 @@ Estos ejercicios te guiarán en la lectura y escritura de archivos CSV, utilizan
 9.  **Manejo de Diferentes Delimitadores** (Dificultad 10.0): [m14_csv-ejercicio9-9.md](m14_csv-ejercicio9-9.md)
 10. **Mini-Proyecto: Convertir CSV a una Lista de Objetos** (Dificultad 11.0): [m14_csv-ejercicio10-10.md](m14_csv-ejercicio10-10.md)
 
-```
 
