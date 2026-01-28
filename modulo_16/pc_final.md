@@ -1,7 +1,3 @@
-Esta es la propuesta final y completa de la Guía de Laboratorio Calificado. Está diseñada bajo un enfoque pedagógico constructivista, orientada a Objetos (POO) y adaptada específicamente para su ejecución en **Google Colab**.
-
----
-
 # GUÍA DE LABORATORIO CALIFICADO: POO y Análisis de Datos
 **Curso:** Programación con Python | **Tema:** Estructuras de Datos, POO y Archivos
 
